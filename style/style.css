@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color:#F5F5F5;
+}
+
+
+
+/* nav bar code start here */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.nav-bar > a{
+   text-decoration: none;
+   border: 2px solid green;
+   border-radius: 5px;
+   padding: 10px 20px;
+   font-weight: bold;
+   color: green;
+   font-family: sans-serif;
+}
+
+/* nav bar code end here */
+
+/* hero area code start here */
