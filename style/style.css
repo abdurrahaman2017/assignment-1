@@ -11,6 +11,7 @@
 }
 
 
+/* shared code end here */
 
 /* nav bar code start here */
 .nav-bar{
@@ -20,8 +21,11 @@
 }
 
 .nav-bar > h3{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
+    color: green;
+    text-shadow: 5px 5px 5px red;
+    font-family:serif;
 }
 
 .nav-bar > a{
@@ -291,6 +295,7 @@
     color: black;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /* question section code end here */
@@ -362,7 +367,7 @@
 /* donate section code start here */
 
 .donate-section{
-    margin: 20px 220px;
+    margin: 20px 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -447,7 +452,7 @@
     background-color:#C6E4D6;
 }
 .subscribe-container{
-    padding: 80px 265px;
+    padding: 80px 230px 80px 360px;
 }
 
 .subscribe-title{
@@ -459,12 +464,12 @@
 .subscribe-description{
     font-size: 16px;
     font-weight: 400px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: gray;
 }
 
 .subscribe-email{
-    padding: 10px 15px;
+    padding: 20px 15px;
     width: 65%;
     border:none;
     border-top-left-radius: 5px;
@@ -472,7 +477,7 @@
 }
 
 .subscribe-btn{
-    padding: 10px 15px;
+    padding: 20px 15px;
     border:none;
     background-color: green;
     color: aliceblue;
@@ -488,12 +493,52 @@
     cursor: pointer;
 }
 
-.subscribe-btn-container > p{
+.subscribe-btn-container > P{
     text-align: center;
     font-size: 16px;
     font-weight: 400px;
     margin-top: 24px;
     color: gray;
+    margin-right:250px;
 }
 
 /* subcribe section code end here */
+
+/* footer section code start here */
+
+.footer-section{
+    background-color:rgb(228, 232, 236);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+}
+
+.footer-title > h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-icon > a{
+    margin-right: 15px;
+}
+
+.author{
+    color: gray;
+}
+.span1{
+    color: black;
+    font-size: 30px;
+}
+
+.span2{
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
